@@ -1,11 +1,15 @@
 # MVC-NodeJS
 In Node.js, because we are also creating the webserver too, we need to add three steps in at the beginning:
 
-<h2>
-Request			--> CONTROLLER  --> Request  --> MODEL  <br> <br>
+<h1>MVC – The Model-View-Controller approach</h1>
+A very popular approach for web sites & web apps – and the one we’ll be working with – is MVC, which stands for model, view, controller. This makes distinctions between the model (data), view (presentation) and controllers (logic).
 
-MODEL       --> Response    --> CONTROLLER   --> Response   --> VIEW    --> Response
-</h2>
+<h3>The diagram below shows how a standard MVC request/response loop looks: </h3>
+
+<h2>
+User Request			--> CONTROLLER  --> Request  --> MODEL  <br> <br>
+
+MODEL       --> Response    --> CONTROLLER   --> Response   --> VIEW    --> Response </h2>
 
 Request comes in to server
 Server sends request to router
